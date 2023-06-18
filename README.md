@@ -2,7 +2,7 @@
 
 This backend version of the Mars Rover application provides a REST API endpoints.
 
-## Running User API locally
+## Running Rover API locally
 ### With maven command line (Set JAVA_HOME if needed)
 ```
 git clone https://github.com/sureshchellaboyina/rover.git
