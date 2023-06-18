@@ -31,7 +31,7 @@ Invalid direction: X
 
 
 #### Current Position
-GET http://localhost:8080/rover/<rover-name>/position
+GET http://localhost:8080/rover/{rover-name}/position
 #### Example:
 GET http://localhost:8080/rover/R1/position
 ```
@@ -45,7 +45,7 @@ Rover not found: R6
 ```
 
 #### Move Rover
-POST http://localhost:8080/rover/<rover-name>/move
+POST http://localhost:8080/rover/{rover-name}/move
 #### Example:
 POST http://localhost:8080/rover/R1/move
 ```
